@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddContactActivity"
+    tools:showIn="@layout/activity_add_contact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:background="@drawable/avatar_rounded_background"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_camera_alt_white"
+                android:contentDescription="Добавить фото контакта"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            style="@style/TextInputLinearLayoutContact">
+
+            <ImageView
+                android:id="@+id/first_name_image_view"
+                style="@style/IconContactItem"
+                android:layout_marginEnd="15dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/ic_person_grey"
+                android:contentDescription="Добавить фото контакта"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayoutContactItem">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/first_name__edit_text"
+                    style="@style/EditTextContactItem"
+                    android:hint="Имя"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TextInputLinearLayoutContact">
+
+            <ImageView
+                android:id="@+id/last_name_image_view"
+                style="@style/IconContactItem"
+                android:layout_marginEnd="15dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/ic_person_grey"
+                android:contentDescription="Добавить фото контакта"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayoutContactItem">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/last_name_edit_text"
+                    style="@style/EditTextContactItem"
+                    android:hint="Фамилия"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TextInputLinearLayoutContact">
+
+            <ImageView
+                android:id="@+id/work_image_view"
+                style="@style/IconContactItem"
+                android:layout_marginEnd="15dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/ic_work_grey"
+                android:contentDescription="Добавить фото контакта"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayoutContactItem">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/work_edit_text"
+                    style="@style/EditTextContactItem"
+                    android:hint="Место работы"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TextInputLinearLayoutContact">
+
+            <ImageView
+                android:id="@+id/phone_image_view"
+                style="@style/IconContactItem"
+                android:layout_marginEnd="15dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/ic_call_grey"
+                android:contentDescription="Добавить фото контакта"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayoutContactItem"
+                app:counterEnabled="true"
+                app:counterMaxLength="16">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phone_edit_text"
+                    style="@style/EditTextContactItem"
+                    android:hint="Телефон"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TextInputLinearLayoutContact">
+
+            <ImageView
+                android:id="@+id/email_image_view"
+                style="@style/IconContactItem"
+                android:layout_marginEnd="15dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/ic_email_grey"
+                android:contentDescription="Добавить фото контакта"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayoutContactItem">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email_edit_text"
+                    style="@style/EditTextContactItem"
+                    android:hint="E-mail"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TextInputLinearLayoutContact">
+
+            <ImageView
+                android:id="@+id/web_image_view"
+                style="@style/IconContactItem"
+                android:layout_marginEnd="15dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/ic_web_grey"
+                android:contentDescription="Добавить фото контакта"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayoutContactItem">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/web_edit_text"
+                    style="@style/EditTextContactItem"
+                    android:hint="Веб-сайт"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

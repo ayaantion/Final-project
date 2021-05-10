@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Контакты</string>
+    <string name="action_search">Поиск</string>
+    <string name="phone">0501090889</string>
+    <string name="name_izzat_text">Иззат</string>
+    <string name="ic_star_border_desc">Icon star bordered</string>
+    <string name="avatar_izzat_text">И</string>
+    <string name="avatar_maksim_text">М</string>
+    <string name="name_maksim_text">Максим</string>
+    <string name="avatar_eles_text">Э</string>
+    <string name="name_eles_text">Элес</string>
+    <string name="name_niztana_text">Низтана</string>
+    <string name="avatar_niztana_text">Н</string>
+    <string name="name_aiana_text">Аяна</string>
+    <string name="avatar_aiana_text">А</string>
+    <string name="ic_camera_desc">Добавить фото контакта</string>
+    <string name="first_name_text">Имя</string>
+    <string name="action_save">Сохранить</string>
+    <string name="title_add_contact_text">Создать новый контакт</string>
+    <string name="last_name_text">Фамилия</string>
+    <string name="work_text">Место работы</string>
+    <string name="phone_text">Телефон</string>
+    <string name="email_text">E-mail</string>
+    <string name="web_text">Веб-сайт</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_favorite">Избранные</string>
+    <string name="email">alatoo.kg</string>
+    <string name="send_text">Контактный номер</string>
+    <string name="share_text">Поделиться</string>
+</resources>

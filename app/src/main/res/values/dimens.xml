@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_margin">15dp</dimen>
+    <dimen name="text_head_size">20sp</dimen>
+    <dimen name="margin_sm">10dp</dimen>
+    <dimen name="margin_md">15dp</dimen>
+    <dimen name="margin_xl">65dp</dimen>
+    <dimen name="avatar_text_size">25sp</dimen>
+    <dimen name="avatar_sm">45dp</dimen>
+    <dimen name="avatar_md">120dp</dimen>
+    <dimen name="avatar_lg">180dp</dimen>
+    <dimen name="margin_lg">40dp</dimen>
+    <dimen name="app_bar_height">360dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="ic_padding">12dp</dimen>
+    <dimen name="card_padding">10dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_corner_radius">5dp</dimen>
+    <dimen name="margin_xs">4dp</dimen>
+    <dimen name="edit_text_padding_bottom">30dp</dimen>
+</resources>
